@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/daniel/workspace/hw_ho5/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/hw_ho5.dir/all
+all: CMakeFiles/main.dir/all
 all: CMakeFiles/imc.dir/all
 
 .PHONY : all
@@ -64,37 +64,37 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/hw_ho5.dir/clean
+clean: CMakeFiles/main.dir/clean
 clean: CMakeFiles/imc.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/hw_ho5.dir
+# Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/hw_ho5.dir/all:
-	$(MAKE) -f CMakeFiles/hw_ho5.dir/build.make CMakeFiles/hw_ho5.dir/depend
-	$(MAKE) -f CMakeFiles/hw_ho5.dir/build.make CMakeFiles/hw_ho5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daniel/workspace/hw_ho5/build/CMakeFiles --progress-num=1,2 "Built target hw_ho5"
-.PHONY : CMakeFiles/hw_ho5.dir/all
+CMakeFiles/main.dir/all:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daniel/workspace/hw_ho5/build/CMakeFiles --progress-num=3,4 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hw_ho5.dir/rule: cmake_check_build_system
+CMakeFiles/main.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/workspace/hw_ho5/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hw_ho5.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/daniel/workspace/hw_ho5/build/CMakeFiles 0
-.PHONY : CMakeFiles/hw_ho5.dir/rule
+.PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-hw_ho5: CMakeFiles/hw_ho5.dir/rule
+main: CMakeFiles/main.dir/rule
 
-.PHONY : hw_ho5
+.PHONY : main
 
 # clean rule for target.
-CMakeFiles/hw_ho5.dir/clean:
-	$(MAKE) -f CMakeFiles/hw_ho5.dir/build.make CMakeFiles/hw_ho5.dir/clean
-.PHONY : CMakeFiles/hw_ho5.dir/clean
+CMakeFiles/main.dir/clean:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/imc.dir
@@ -103,7 +103,7 @@ CMakeFiles/hw_ho5.dir/clean:
 CMakeFiles/imc.dir/all:
 	$(MAKE) -f CMakeFiles/imc.dir/build.make CMakeFiles/imc.dir/depend
 	$(MAKE) -f CMakeFiles/imc.dir/build.make CMakeFiles/imc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daniel/workspace/hw_ho5/build/CMakeFiles --progress-num=3,4 "Built target imc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/daniel/workspace/hw_ho5/build/CMakeFiles --progress-num=1,2 "Built target imc"
 .PHONY : CMakeFiles/imc.dir/all
 
 # Build rule for subdir invocation for target.

@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hw_ho5
+# Target rules for targets named main
 
 # Build rule for target.
-hw_ho5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hw_ho5
-.PHONY : hw_ho5
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-hw_ho5/fast:
-	$(MAKE) -f CMakeFiles/hw_ho5.dir/build.make CMakeFiles/hw_ho5.dir/build
-.PHONY : hw_ho5/fast
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 #=============================================================================
 # Target rules for targets named imc
@@ -163,32 +163,32 @@ IMC/Base/Factory.cpp.s:
 	$(MAKE) -f CMakeFiles/imc.dir/build.make CMakeFiles/imc.dir/IMC/Base/Factory.cpp.s
 .PHONY : IMC/Base/Factory.cpp.s
 
-hw_ho5.o: hw_ho5.cpp.o
+main.o: main.cpp.o
 
-.PHONY : hw_ho5.o
+.PHONY : main.o
 
 # target to build an object file
-hw_ho5.cpp.o:
-	$(MAKE) -f CMakeFiles/hw_ho5.dir/build.make CMakeFiles/hw_ho5.dir/hw_ho5.cpp.o
-.PHONY : hw_ho5.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-hw_ho5.i: hw_ho5.cpp.i
+main.i: main.cpp.i
 
-.PHONY : hw_ho5.i
+.PHONY : main.i
 
 # target to preprocess a source file
-hw_ho5.cpp.i:
-	$(MAKE) -f CMakeFiles/hw_ho5.dir/build.make CMakeFiles/hw_ho5.dir/hw_ho5.cpp.i
-.PHONY : hw_ho5.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-hw_ho5.s: hw_ho5.cpp.s
+main.s: main.cpp.s
 
-.PHONY : hw_ho5.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-hw_ho5.cpp.s:
-	$(MAKE) -f CMakeFiles/hw_ho5.dir/build.make CMakeFiles/hw_ho5.dir/hw_ho5.cpp.s
-.PHONY : hw_ho5.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -198,14 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... hw_ho5"
+	@echo "... main"
 	@echo "... imc"
 	@echo "... IMC/Base/Factory.o"
 	@echo "... IMC/Base/Factory.i"
 	@echo "... IMC/Base/Factory.s"
-	@echo "... hw_ho5.o"
-	@echo "... hw_ho5.i"
-	@echo "... hw_ho5.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

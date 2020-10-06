@@ -15,13 +15,13 @@ int main() {
     planspecification.setTimeStamp(1.5628304294681385E9);
     planspecification.setSource(16652);
     planspecification.setSourceEntity(44);
-    planspecification.setDestination(30);   
+    planspecification.setDestination(30); 
     planspecification.setDestinationEntity(255);
     planspecification.plan_id = "cmd-lauv-xplore-1";
-    planspecification.start_man_id = 1;
+    planspecification.start_man_id = "1";
 
     PlanManeuver planmaneuver;
-    planmaneuver.maneuver_id = 1;
+    planmaneuver.maneuver_id = "1";
     Loiter Loiter;
     planmaneuver.data = Loiter
     // Loiter loiter;
