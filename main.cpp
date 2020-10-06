@@ -24,7 +24,7 @@ int main() {
     planspecification.setDestination(30); 
     planspecification.setDestinationEntity(255);
     planspecification.plan_id = "cmd-lauv-xplore-1";
-    //planspecification.description = "";     REMOVE?
+    //planspecification.description = "";
     //planspecification.vnamespace = "";
     planspecification.start_man_id = "1";
 
