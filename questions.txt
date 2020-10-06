@@ -1,5 +1,6 @@
-How do I get the IMC folder? By making bindings? If so, where does the
-UDP folder come from?
+How do I get the IMC folder? By making bindings? If so, where does the UDP folder come from?
 
-Can you explain the structure of the whole message? What is the Loiter
-maneuver? (errors in the code because I don't know what it is)
+Can you explain the structure of the whole message? What is the Loiter maneuver?
+(errors in the code because I don't know what it is)
+
+Some questions in main.cpp as comments as well.
